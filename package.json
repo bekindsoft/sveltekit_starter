@@ -30,6 +30,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/vite-plugin-svelte": "^3.1.0"
+		"lucia": "^3.2.0",
+		"@lucia-auth/adapter-sqlite": "^3.0.1",
+		"@sveltejs/vite-plugin-svelte": "^3.1.0",
+		"better-sqlite3": "^9.6.0",
+		"oslo": "^1.2.0"
 	}
 }
