@@ -15,14 +15,19 @@ A sveltekit scaffolding repository, it comes with our base stack for webaps:
 
 Instead of forking or pulling this record use [degit](https://github.com/Rich-Harris/degit)
 
-1. Install degit (if not previously installed)
-
 `pnpm add -g degit`
 
-2. Pull the project to your current folder
+### Choose a flavor
+
+1. Regualr Sveltekit starter
 
 `degit bekindsoft/sveltekit_starter`
 
-3. Ready to go, just `pnpm install` and `pnpm run dev` as usual
+2. Sveltekit starter with Lucia auth
+
+`degit bekindsoft/sveltekit_starter#auth`
+
+When ready to go, just `pnpm install` and `pnpm run dev` as usual
 
 
+### Happy Hacking!
